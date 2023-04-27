@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta
+		http-equiv=Content-Type
+		content=text/html
+		charset=UTF-8 />
+	<title>Inlogpagina</title>
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+	<h1>Hier kun je inloggen.</h1>
+	<ul>
+		<li><a href="blogs.php">Blogs</a></li>
+		|
+		<li><a href="index.html">Home</a></li>
+	</ul>
+	<hr><br><br>
+	<div class="wrap">
+		<form method="post" action="login.php" enctype="multipart/form-data">
+			<p>
+				<label for="usn">Gebruikersnaam</label><br/>
+				<input type="text" name="usn" id="usn">
+			</p>
+			<p>
+				<label for="pw">Wachtwoord</label><br/>
+				<input type="text" name="pw" id="pw">
+			</p>
+			<p>
+				<input type="submit" value="Inloggen">
+			</p>
+			<p>
+				Nog geen account? <br/>
+				<a href="registreren.html">
+				<button class="register" name="register" type="button" value="Registreren">Registreren</button>
+				</a>
+			</p>
+		</form>
+	</div>
+</body>
+</html>
